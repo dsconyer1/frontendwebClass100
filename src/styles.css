@@ -1,3 +1,29 @@
-h1 {
-    color:rgb(235, 10, 10);
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Ariel, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    background-color: gray;
+    padding: 3m;
+}
+header > h1 {
+    color: white;
+    text-align: center;
+    font-size: 3m;
+}
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.6%;
+    border-radius: 15%;
+}
+.square.winner {
+    background: gold;
+}
+.square.loser {
+    background: gray;
 }
